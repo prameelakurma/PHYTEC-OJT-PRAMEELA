@@ -1,7 +1,7 @@
 #include<stdio.h>
-extern int a;
+extern int a=10;
 void main()
 {
-	a=10;
 	printf("%d\n",a);
+
 }
